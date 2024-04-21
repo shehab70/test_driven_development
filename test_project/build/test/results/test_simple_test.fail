@@ -1,0 +1,22 @@
+---
+:source:
+  :path: test
+  :file: test_simple_test.c
+:successes: []
+:failures:
+- :test: test_simple_test_mul
+  :line: 23
+  :message: Expected 31 Was 30
+  :unity_test_time: 0
+:ignores:
+- :test: test_simple_test_NeedToImplement
+  :line: 17
+  :message: Need to Implement simple_test
+  :unity_test_time: 0
+:counts:
+  :total: 2
+  :passed: 0
+  :failed: 1
+  :ignored: 1
+:stdout: []
+:time: 0.0853105999995023
